@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/75f55f0a8e.js" crossorigin="anonymous"></script>
+    <title>Find - Haha Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>docomo</span>
+        <i class="fas fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="datetime"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock fa-xs"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span
+          ><a href="index.html"
+            ><i class="log-out fas fa-sign-out-alt fa-1x"></i></a
+        ></span>
+        <a href="find.html"
+          ><span><i class="fas fa-search fa-1x"> </i></span
+        ></a>
+        <!-- <span><i class="fas fa-comment-dots"></i></span>
+        <span><i class="fas fa-music fa-1x"></i></span> -->
+        <span
+          ><a href="settings.html" class="update-dot"
+            ><i class="fas fa-cog fa-1x"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <!--e:.icon-row--find-->
+      <div class="screen-subtitle">
+        <div class="screen-subtitle__header">
+          <span>Recommended Friends</span>
+        </div>
+      </div>
+      <!--e:.screen-subtitle-->
+      <div class="screen-content">
+        <span class="screen-content__content--no-content">
+          You have no recommended friends.
+        </span>
+      </div>
+      <!--e:.screen-subcontent-->
+      <div class="screen-subtitle">
+        <div class="screen-subtitle__header">
+          <span> Open Chat </span>
+          <span>
+            Go to Openchat Home
+            <i
+              class="fas fa-chevron-right fa-xs screen-subtitle__header__goto-icon"
+            ></i>
+          </span>
+        </div>
+      </div>
+      <div class="screen-content">
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#도쿄직장인平成生まれ❤️
+            </h5>
+            <h6 class="open-post__tags">
+              <i>#東京</i>
+              <i>#社会人</i>
+              <i>#韓国人</i>
+              <i>#日韓</i>
+              <i>#日本生活</i>
+              <i>#新大久保</i>
+
+
+            </h6>
+            <div class="open-post__members">
+              <img src="img/직장인.png" alt="member-pic" />
+              <span class="open-post__members-count">90 members</span>
+              <i
+                class="open-post__members-status open-post__members-status--active"
+                >Active</i
+              >
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__pic">
+              <img src="img/직장인.png" alt="open-post-pic" />
+              <div class="open-post__pic__like-count">
+                <i class="fas fa-heart"></i>
+                <span>1,210</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--e:.open-post-->
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#ITエンジニア勉強会</h5>
+            <h6 class="open-post__tags">
+              <i>#コーディング</i>
+              <i>#フロントエンド</i>
+              <i>#バックエンドシステム</i>
+              <i>#インフラエンジニア</i>
+              <i>#ITエンジニア</i>
+              <i>#IT勉強</i>
+            </h6>
+            <div class="open-post__members">
+              <img src="img/エンジニア.png" alt="member-pic" />
+              <span class="open-post__members-count">300 members</span>
+              <i
+                class="open-post__members-status open-post__members-status--active"
+                >Active</i
+              >
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__pic">
+              <img src="img/エンジニア.png" alt="open-post-pic" />
+              <div class="open-post__pic__like-count">
+                <i class="fas fa-heart"></i>
+                <span>421</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--e:.open-post-->
+      </div>
+      <!--e:.screen-content-->
+    </main>
+
+    <nav class="nav">
+      <ul class="nav_ul">
+          <li class="nav_li"><a class="nav_link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+          <li class="nav_li"><a class="nav_link" href="chats.html">
+              <span class="nav__notification badge">3</span>
+              <i class="fas fa-comment fa-2x"></i></a></li>
+          <li class="nav_li"><a class="nav_link" href="find.html"><i class="fas fa-search fa-2x"></i> </a></li>
+          <li class="nav_li"><a class="nav_link" href="more.html"><i class="fas fa-ellipsis-h fa-2x update-dot"></i></a></li>
+      </ul>       
+    </nav>
+
+    <div class="no-mobile">
+      <span>Screen is too big :'(</span>
+      <img src="img/no-mobile.gif" alt="no-mobile" />
+      <i>Please reduce the screen to 645px or less.</i>
+    </div>
+
+   <!-- current time -->
+    <script src="datetime.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

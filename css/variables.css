@@ -1,0 +1,34 @@
+:root {
+    /*colors*/
+    --yellow: rgb(11 31 74);
+    --peach: rgb(88 228 204);
+    --semi-light-peach: #fec3c6;
+    --light-peach: #ffffff;
+    --very-light-peach: #58e4cc;
+    --red: rgb(250, 96, 96);
+    --pink: #ff63c3;
+    --blue: rgb(33, 168, 213);
+    --beige: rgba(247, 233, 228, 0.5);
+    --black: rgb(13, 34, 52);
+    --gray: rgba(13, 34, 52, 0.5);
+    --dark-gray: rgba(13, 34, 52, 0.7);
+    --very-light-gray: rgba(13, 34, 52, 0.05);
+    --light-gray: rgba(13, 34, 52, 0.1);
+    --semi-light-gray: rgba(13, 34, 52, 0.2);
+    --z-black: rgba(13, 34, 52, 0.1);
+    --white: #fefcfe;
+    --light-white: rgba(255, 255, 255, 0.8);
+    --z-white: rgba(255, 255, 255, 0.1);
+    --chatroom-color: #fcf5c7;
+    --message-gray: rgba(245, 245, 245);
+    /*
+    chatroom-color-alternates
+    #e3e7d3;
+    #cbf7ed
+    */
+    /*sizes*/
+    --horizontal-padding: 20px;
+    --chatroom-padding: 12px;
+    /*fonts*/
+    --hand-writing: "Caveat Brush", cursive;
+  }

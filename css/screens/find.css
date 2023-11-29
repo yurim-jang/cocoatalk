@@ -1,0 +1,123 @@
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--light-gray);
+  }
+  
+  .open-post:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+  
+  .open-post .open-post__column:first-child {
+    width: calc(100% - 90px);
+    padding-right: 13px;
+  }
+  
+  
+  .open-post__pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 7%;
+    overflow: hidden;
+    position: relative;
+  }
+  .open-post__pic img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  
+  .open-post__pic__like-count {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 4px;
+    right: 4px;
+    color: var(--white);
+    border-radius: 8px;
+    height: 20px;
+    padding: 0 8px;
+    font-size: 11px;
+    font-weight: 200;
+  }
+  
+  @keyframes heartBeat {
+    0% {
+      transform: none;
+      color: var(--white);
+    }
+    50% {
+      transform: scale(1.4);
+      color: var(--pink);
+    }
+    100% {
+      transform: none;
+      color: var(--white);
+    }
+  }
+  .open-post__pic:hover .open-post__pic__like-count i {
+    will-change: transform;
+    animation: heartBeat 0.8s ease-in-out infinite;
+  }
+  
+  .open-post__pic__like-count i {
+    margin-right: 5px;
+    font-size: 9px;
+  }
+  
+  .open-post__title {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .open-post__tags {
+    overflow: hidden;
+    color: var(--gray);
+    margin-bottom: 5px;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+  
+  .open-post__members > * {
+    margin-right: 5px;
+  }
+  
+  .open-post__members {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: var(--gray);
+    font-size: 14px;
+  }
+  
+  .open-post__members img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--very-light-gray);
+    margin-right: 5px;
+  }
+  
+  .open-post__members-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .open-post__members-status--active {
+    color: var(--pink);
+  }
+  .open-post__members-status::before {
+    display: block;
+    margin-right: 5px;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: var(--semi-light-gray);
+  }

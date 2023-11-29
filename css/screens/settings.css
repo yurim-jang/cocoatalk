@@ -1,0 +1,46 @@
+.setting-list {
+    border-top: 1px solid var(--light-gray);
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  
+  .setting-list i {
+    color: var(--gray);
+  }
+  .setting-list:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .settings__setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    font-size: 20px;
+    border-top: 1px solid var(--very-light-gray);
+  }
+  .settings__setting:first-child {
+    border-top: none;
+  }
+  
+  .settings__setting i {
+    font-size: 18px;
+    display: inline-block;
+    width: 33px;
+    text-align: left;
+  }
+  
+  .settings__setting-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .settings__setting-title .badge {
+    margin-left: 8px;
+  }
+  
+  .settings__setting-comment {
+    font-size: 18px;
+    color: var(--gray);
+  }

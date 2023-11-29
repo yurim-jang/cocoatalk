@@ -1,0 +1,30 @@
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: var(--black);
+    background-color: var(--white);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    animation: hideSplashScreen 0.4s ease-out forwards;
+    animation-delay: 0.7s;
+  }
+  
+  .splash-screen img {
+    width: 210px;
+  }
+  
+  @keyframes hideSplashScreen {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      display: none;
+    }
+  }

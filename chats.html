@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/75f55f0a8e.js" crossorigin="anonymous"></script>
+    <title>Chats - Haha Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>docomo</span>
+        <i class="fas fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="datetime"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock fa-xs"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span
+          ><a href="index.html"
+            ><i class="log-out fas fa-sign-out-alt fa-1x"></i></a
+        ></span>
+        <a href="find.html"
+          ><span><i class="fas fa-search fa-1x"> </i></span
+        ></a>
+        <span><i class="fas fa-comment-dots fa-1x"></i></span>
+        <span><i class="fas fa-music fa-1x"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-1x"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/五条悟.png"
+              alt="profile-picture"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">五条悟</h4>
+              <h6 class="user-component__subtitle">やっほーりみちゃん！</h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--time">
+            <span>08:22</span>
+            <div><i class="badge">3</i></div>
+          </div>
+        </div>
+      </a>
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/宿儺.png"
+              alt="profile-picture"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">宿儺</h4>
+              <h6 class="user-component__subtitle">おたんおめ.</h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--time">
+            <span>08:05</span>
+            <div>
+              <!-- <i class="badge">3</i> -->
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/カイドウ.png"
+              alt="profile-picture"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">カイドウ</h4>
+              <h6 class="user-component__subtitle">お誕生日おめでとうございます。</h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--time">
+            <span>07:27</span>
+            <div><i class="badge">1</i></div>
+          </div>
+        </div>
+      </a>
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/なみ.png"
+              alt="profile-picture"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">なみ</h4>
+              <h6 class="user-component__subtitle">りみちゃん！誕生日パーティーしようね❤️</h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--time">
+            <span>07:00</span>
+            <div><i class="badge">@ 4</i></div>
+          </div>
+        </div>
+      </a>
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/ルフィ.png"
+              alt="profile-picture"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">ルフィ</h4>
+              <h6 class="user-component__subtitle">ケーキは俺が全部食べるからな！</h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--time">
+            <span>07:00</span>
+            <div></div>
+          </div>
+        </div>
+      </a>
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/虎杖.png"
+              alt="profile-picture"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">虎杖悠仁</h4>
+              <h6 class="user-component__subtitle">プレゼント何がいい？！！</h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--time">
+            <span>00:00</span>
+            <div><i class="badge">3</i></div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav_ul">
+          <li class="nav_li"><a class="nav_link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+          <li class="nav_li"><a class="nav_link" href="chats.html">
+              <span class="nav__notification badge">3</span>
+              <i class="fas fa-comment fa-2x"></i></a></li>
+          <li class="nav_li"><a class="nav_link" href="find.html"><i class="fas fa-search fa-2x"></i> </a></li>
+          <li class="nav_li"><a class="nav_link" href="more.html"><i class="fas fa-ellipsis-h fa-2x update-dot"></i></a></li>
+      </ul>       
+  </nav>
+
+    <div class="no-mobile">
+      <span>Screen is too big :'(</span>
+      <img src="img/no-mobile.gif" alt="no-mobile" />
+      <i>Please reduce the screen to 645px or less.</i>
+    </div>
+   <!-- current time -->
+    <script src="datetime.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

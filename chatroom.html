@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/75f55f0a8e.js" crossorigin="anonymous"></script>
+    <title>Chatroom - Haha Talk</title>
+  </head>
+
+  <body id="chatroom-body">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>docomo</span>
+        <i class="fas fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="datetime"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock fa-xs"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column alt-header__column--left">
+        <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="alt-header__column alt-header__column--middle">
+        <span>五条悟</span>
+      </div>
+      <div class="alt-header__column alt-header__column--right">
+        <a href="find.html"><i class="fas fa-search"></i></a>
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <main class="main-screen chatroom-screen">
+      <div class="chatroom__timestamp">
+        <span>2023年 4月21日 金曜日</span>
+      </div>
+      <div class="message-row">
+        <div class="message-row__pic">
+          <img src="img/五条悟.png" alt="message-user-pic" />
+        </div>
+        <div class="message-row__content">
+          <span class="message__author">五条悟</span>
+          <div class="message__info">
+            <div class="message__info__row">
+              <span class="message__bubble"> やっほーりみちゃん！</span>
+            </div>
+            <!-- <div class="message__info__row">
+              <span class="message__bubble"> HBD! have a great day!💕 </span>
+              <i class="message__status">
+                <strong class="message__time">22:20</strong>
+              </i>
+            </div> -->
+            <div class="message__info__row">
+              <span class="message__bubble message__bubble__gift">
+                <div class="gift__card">
+                  <div class="gift__card__wrap">
+                    <div class="gift__card__img">
+                      <img src="img/hbd.jpg" alt="cardimg" />
+                    </div>
+                    <div class="gift__card__info">
+                      <div class="gift__card__info__img">
+                        <img src="img/coupon.jpg" alt="giftimg" />
+                      </div>
+                      <div class="gift__card__info__title">
+                        <i class="gift__card__info__brand">キールズ</i>
+                        <span class="gift__card__info__name">
+                          ハンド&リップギフトセット
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gift__btns">
+                  <span class="gift__text">"お誕生おめでとう💕🎉"</span>
+                  <a href="#" class="gift__btn">Haha Gift</a>
+                  <a href="#" class="gift__btn">Open Gift Card</a>
+                  <a href="#" class="gift__btn">Return Thanks</a>
+                  <a href="#" class="gift__shop">
+                    <i class="fas fa-gift"></i>
+                    <span class="gift__shop__text">
+                      HAHA Giftshop
+                      <i class="fas fa-chevron-right"></i>
+                    </span>
+                  </a>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message__info">
+          <div class="message__info__row">
+            <span class="message__bubble"> さとる！！！ありがとう！！！ </span>
+            <i class="message__status">
+              <small class="message__read">1</small>
+            </i>
+          </div>
+
+          <div class="message__info__row">
+            <span class="message__bubble">
+              感動した〜🥰🥰<br />
+              幸せです！ありがとうございます！
+            </span>
+            <i class="message__status">
+              <small class="message__read">1</small>
+              <strong class="message__time">09:00</strong>
+            </i>
+          </div>
+          <div class="message__info__row">
+            <span class="message__bubble">
+              嬉しすぎる〜❤️
+            </span>
+            <i class="message__status">
+              <small class="message__read">1</small>
+              <strong class="message__time">09:01</strong>
+            </i>
+          </div>
+          <div class="message__info__row">
+            <span class="message__bubble">
+              ありがとう❤️
+            </span>
+            <i class="message__status">
+              <small class="message__read">1</small>
+              <strong class="message__time">09:01</strong>
+            </i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form action="" class="reply">
+      <div class="reply__column reply__column--add">
+        <div class="reply__column--add__button">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+      <div class="reply__column reply__column--text">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile reply__emoticon"></i>
+        <button class="reply__send"><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div class="no-mobile">
+      <span>Screen is too big :'(</span>
+      <img src="img/no-mobile.gif" alt="no-mobile" />
+      <i>Please reduce the screen to 645px or less.</i>
+    </div>
+
+       <!-- current time -->
+    <script src="datetime.js"></script>
+  </body>
+</html>

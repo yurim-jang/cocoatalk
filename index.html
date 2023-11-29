@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAHA Chat</title>
+    <script src="https://kit.fontawesome.com/75f55f0a8e.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>docomo</span>
+        <i class="fas fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="datetime"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock fa-xs"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to <em>HAHA CHAT</em></h1>
+      <p class="welcome-header__text">
+        If you have a HAHA Account, log in with your email or phone number
+      </p>
+    </header>
+    <div class="login-img">
+      <img src="img/login-img.gif" alt="loginimg" />
+    </div>
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+      />
+      <input name="password" type="password" placeholder="Password" required />
+      <input type="submit" value="LOG IN" />
+      <a href="#">Find HAHA Accout or Password</a>
+    </form>
+    <div class="img-own">
+      <a href="https://www.flaticon.com/kr/free-animated-icons/" title=" 애니메이션 아이콘"> Freepik - Flaticon</a>
+      <i>Illustrations are owned by flaticon</i>
+    </div>
+    <div class="no-mobile">
+      <span>Screen is too big!</span>
+      <img src="img/no-mobile.gif" alt="no-mobile" />
+      <i>Please reduce the screen to 645px or less.</i>
+    </div>
+    <div class="splash-screen">
+      <img src="img/splash.gif" alt="loading" />
+    </div>
+    <!-- current time -->
+    <script src="datetime.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

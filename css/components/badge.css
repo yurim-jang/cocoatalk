@@ -1,0 +1,36 @@
+.badge {
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    line-height: 18px;
+    color: var(--white);
+    background-color: var(--red);
+    min-width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    padding: 0 6px;
+    border-radius: 10px;
+  }
+  
+  .update-dot {
+    position: relative;
+  }
+  
+  .update-dot::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: var(--red);
+  }
+  
+  /*.alert should be <i class="fas fa-exclamation-circle alert">*/
+  .alert {
+    margin-left: 5px;
+    font-size: 15px;
+    color: var(--red);
+  }

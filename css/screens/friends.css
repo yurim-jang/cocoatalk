@@ -1,0 +1,18 @@
+.friends-display-link {
+    text-align: center;
+    display: block;
+    padding: 10px 24px;
+    background-color: var(--very-light-gray);
+    font-size: 14px;
+  }
+  
+  .friends-display-link i {
+    color: var(--semi-light-gray);
+  }
+  .friends-display-link strong {
+    margin-right: 2px;
+  }
+  .friends-display-link span {
+    margin-left: 6px;
+  }
+  
